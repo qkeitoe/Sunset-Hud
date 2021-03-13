@@ -30,7 +30,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"MainBG"
 		"xpos"						"c-255"
-		"ypos"						"r230"
+		"ypos"						"r303"
 		"zpos"						"3"
 		"wide"						"510"
 		"tall"						"230"
@@ -51,10 +51,10 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"BlueScoreBG"
 		"xpos"						"0"
-		"ypos"						"-15"
+		"ypos"						"-5"
 		"zpos"						"2"
 		"wide"						"258"
-		"tall"						"35"
+		"tall"						"25"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -76,10 +76,10 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"RedScoreBG"
 		"xpos"						"0"
-		"ypos"						"-15"
+		"ypos"						"-5"
 		"zpos"						"2"
 		"wide"						"257"
-		"tall"						"35"
+		"tall"						"25"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -319,10 +319,10 @@
 		"ControlName"				"SectionedListPanel"
 		"fieldName"					"BluePlayerList"
 		"xpos"						"c-251"
-		"ypos"						"r228"
+		"ypos"						"r304"
 		"zpos"						"20"
 		"wide"						"250"
-		"tall"						"186"
+		"tall"						"192"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
@@ -345,10 +345,10 @@
 		"ControlName"				"SectionedListPanel"
 		"fieldName"					"RedPlayerList"
 		"xpos"						"c2"
-		"ypos"						"r228"
+		"ypos"						"r304"
 		"zpos"						"20"
 		"wide"						"250"
-		"tall"						"186"
+		"tall"						"192"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
@@ -569,7 +569,7 @@
 		if_mvm
 		{
 			"xpos"					"c-232"
-			"ypos"					"r84"
+			"ypos"					"r156"
 			"zpos"					"20"
 			"wide"					"530"
 			"tall"					"34"
@@ -577,18 +577,18 @@
 			"pin_to_sibling"		""
 		}
 
-		"KillsLabel"
+		"KDSeparator"
 		{
 			"ControlName"			"CExLabel"
-			"fieldName"				"KillsLabel"
-			"font"					"Size 8"
-			"labelText"				"Kills:"
-			"textAlignment"			"west"
-			"xpos"					"0"
-			"ypos"					"0"
+			"fieldName"				"KDSeparator"
+			"font"					"Size 26"
+			"labelText"				":"
+			"textAlignment"			"center"
+			"xpos"					"40"
+			"ypos"					"2"
 			"zpos"					"3"
-			"wide"					"55"
-			"tall"					"10"
+			"wide"					"5"
+			"tall"					"15"
 			"autoResize"			"0"
 			"pinCorner"				"0"
 			"visible"				"1"
@@ -605,52 +605,23 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Killss"
-			"font"					"Size 8"
+			"font"					"Size 26"
 			"labelText"				"%kills%"
-			"textAlignment"			"west"
-			"xpos"					"0"
-			"ypos"					"0"
+			"textAlignment"			"east"
+			"xpos"					"1"
+			"ypos"					"-2"
 			"zpos"					"3"
 			"wide"					"25"
-			"tall"					"10"
+			"tall"					"15"
 			"autoResize"			"0"
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fgcolor"				"White"
-			
-			"pin_to_sibling"		"KillsLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
-			if_mvm
-			{
-				"visible"			"0"
-			}
-		}
-		
-		"DeathsLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"DeathsLabel"
-			"font"					"Size 8"
-			"labelText"				"Deaths:"
-			"textAlignment"			"west"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"3"
-			"wide"					"55"
-			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"AllCaps"				"1"
-			"fgcolor"				"White"
-			
-			"pin_to_sibling"		"KillsLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+			"fgcolor"				"GreenLight"
+
+			"pin_to_sibling"		"KDSeparator"
+			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			
 			if_mvm
 			{
@@ -661,21 +632,21 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Deathss"
-			"font"					"Size 8"
+			"font"					"Size 26"
 			"labelText"				"%deaths%"
 			"textAlignment"			"west"
-			"xpos"					"0"
-			"ypos"					"0"
+			"xpos"					"1"
+			"ypos"					"-2"
 			"zpos"					"3"
 			"wide"					"25"
-			"tall"					"10"
+			"tall"					"15"
 			"autoResize"			"0"
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fgcolor"				"White"
-			
-			"pin_to_sibling"		"DeathsLabel"
+			"fgcolor"				"RedLight"
+
+			"pin_to_sibling"		"KDSeparator"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
@@ -684,44 +655,15 @@
 				"visible"			"0"
 			}
 		}
-		
-		"AssistsLabel"
+		"Damagess"
 		{
 			"ControlName"			"CExLabel"
-			"fieldName"				"AssistsLabel"
-			"font"					"Size 8"
-			"labelText"				"Assists:"
-			"textAlignment"			"west"
+			"fieldName"				"Damagess"
+			"font"					"Size 10"
+			"labelText"				"%damage%"
+			"textAlignment"			"center"
 			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"3"
-			"wide"					"55"
-			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"AllCaps"				"1"
-			"fgcolor"				"White"
-			
-			"pin_to_sibling"		"DeathsLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
-			if_mvm
-			{
-				"visible"			"0"
-			}
-		}
-		"Assistss"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"Assistss"
-			"font"					"Size 8"
-			"labelText"				"%assists%"
-			"textAlignment"			"west"
-			"xpos"					"0"
-			"ypos"					"0"
+			"ypos"					"2"
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
@@ -729,11 +671,11 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fgcolor"				"White"
-			
-			"pin_to_sibling"		"AssistsLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"fgcolor"				"OrangeLight"
+
+			"pin_to_sibling"		"KDSeparator"
+			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 			
 			if_mvm
 			{
@@ -748,7 +690,7 @@
 			"font"					"Size 8"
 			"labelText"				"Captures:"
 			"textAlignment"			"west"
-			"xpos"					"20"
+			"xpos"					"100"
 			"ypos"					"0"
 			"zpos"					"3"
 			"wide"					"55"
@@ -759,10 +701,6 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
-			"pin_to_sibling"		"Killss"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			if_mvm
 			{
@@ -1358,12 +1296,12 @@
 			}
 		}
 		
-		"DamageLabel"
+		"AssistsLabel"
 		{
 			"ControlName"			"CExLabel"
-			"fieldName"				"DamageLabel"
+			"fieldName"				"AssistsLabel"
 			"font"					"Size 8"
-			"labelText"				"Damage:"
+			"labelText"				"Assists:"
 			"textAlignment"			"west"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -1386,15 +1324,14 @@
 				"visible"			"0"
 			}
 		}
-		"Damagess"
+		"Assistss"
 		{
 			"ControlName"			"CExLabel"
-			"fieldName"				"Damagess"
+			"fieldName"				"Assistss"
 			"font"					"Size 8"
-			"labelText"				"%damage%"
+			"labelText"				"%assists%"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			
 			"ypos"					"0"
 			"zpos"					"3"
 			"wide"					"25"
@@ -1405,7 +1342,7 @@
 			"enabled"				"1"
 			"fgcolor"				"White"
 			
-			"pin_to_sibling"		"DamageLabel"
+			"pin_to_sibling"		"AssistsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
