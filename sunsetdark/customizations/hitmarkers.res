@@ -99,7 +99,7 @@
 	
 	"XHitmarker"
 	{
-		"visible"    								"0"
+		"visible"    								"1"
 		"drawcolor"									"HitMarker"
 		
 		"xpos"      								"cs-0.5"
