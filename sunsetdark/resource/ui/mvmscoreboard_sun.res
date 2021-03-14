@@ -20,7 +20,7 @@
 		"ControlName"				"SectionedListPanel"
 		"fieldName"					"MvMPlayerList"
 		"xpos"						"35"
-		"ypos"						"r307"
+		"ypos"						"r309"
 		"zpos"						"20"
 		"wide"						"530"
 		"tall"						"146"
