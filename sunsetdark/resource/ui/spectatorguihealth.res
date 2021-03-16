@@ -1,18 +1,27 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
+	"HealthBG"
+    {
+        "ControlName"           	"EditablePanel"
+        "fieldName"                	"HealthBG"
+        "xpos"                    	"3"
+        "ypos"                    	"5"
+        "zpos"                    	"3"
+        "wide"                    	"30"
+        "tall"                    	"14"
+        "visible"                	"1"
+        "enabled"                	"1"
+        "paintbackground"        	"1"
+        "paintbackgroundtype"    	"0"
+        "bgcolor_override"        	"Blank"
+    }
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"PlayerStatusHealthBonusImage"
-		"xpos"						"10"
-		"ypos"						"4"
-		"zpos"						"-1"
-		"wide"						"15"
-		"tall"						"15"
-		"visible"					"0"
-		"enabled"					"1"
-		"image"						"../hud/health_over_bg"
-		"scaleImage"				"1"	
+		"xpos"						"9999"
+		"tall"						"0"
 	}
 	
 	"PlayerStatusHealthValueTarget"

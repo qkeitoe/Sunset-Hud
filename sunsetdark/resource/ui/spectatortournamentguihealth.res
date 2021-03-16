@@ -1,5 +1,22 @@
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
+	"HealthBG"
+    {
+        "ControlName"           	"EditablePanel"
+        "fieldName"                	"HealthBG"
+        "xpos"                    	"0"
+        "ypos"                    	"0"
+        "zpos"                    	"3"
+        "wide"                    	"f0"
+        "tall"                    	"f0"
+        "visible"                	"1"
+        "enabled"                	"1"
+        "paintbackground"        	"1"
+        "paintbackgroundtype"    	"0"
+        "bgcolor_override"        	"Blank"
+		"proportionaltoparent"    	"1"
+    }
+	
 	"PlayerStatusHealthValueSpectator"
 	{
 		"ControlName"			"CExLabel"

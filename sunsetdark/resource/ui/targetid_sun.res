@@ -52,7 +52,7 @@
 		"ypos"						"5"
 		"zpos"						"-1"
 		"wide"						"252"
-		"tall"						"13"
+		"tall"						"14"
 		"visible"					"1"
 		"enabled"					"1"
 		"bgcolor_override"			"BlackLightTransparent"
