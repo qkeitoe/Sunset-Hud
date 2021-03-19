@@ -177,6 +177,17 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
+		"Class Symbols 40"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"40"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
 		
 		"Class Symbols 42"
 		{

@@ -6,7 +6,7 @@
 		"fieldName"							"info"
 		"xpos"								"0"
 		"ypos"								"0"
-		"wide"								"f0"
+		"wide"								"f-6"
 		"tall"								"480"
 		"autoResize"						"0"
 		"pinCorner"							"0"
@@ -20,9 +20,9 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"TextWindowAnchor"
-		"xpos"								"-5"
+		"xpos"								"c0"
 		"ypos"								"-5"
-		"wide"								"5"
+		"wide"								"0"
 		"tall"								"5"
 		"visible"							"1"
 		"enabled"							"1"
@@ -32,44 +32,26 @@
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"TextWindowFrame"
-		"xpos"								"0"
+		"xpos"								"c3"
 		"ypos"								"0"
 		"zpos"								"1"
-		"wide"								"130"
+		"wide"								"f-6"
 		"tall"								"p1.02"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"GrayBlueBorder"
+		"border"							"BlackTransparent70"
 		
 		"pin_to_sibling" 					"TextWindowAnchor"
-	}
-	
-	"TitleFrame"
-	{
-		"ControlName"     		  			"EditablePanel"
-		"fieldName"	        	  			"TitleFrame"
-		"xpos"								"0"
-		"ypos"								"5"
-		"zpos"								"2"
-		"wide"								"130"
-		"tall"								"30"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"BlueTransparent70"
-		
-		"pin_to_sibling" 					"TextWindowFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
 	
 	"TFMessageTitle"
 	{
 		"ControlName"						"CExLabel"
 		"fieldName"							"TFMessageTitle"
-		"xpos"								"-5"
-		"ypos"								"-10"
+		"xpos"								"0"
+		"ypos"								"50"
 		"zpos"								"5"
-		"wide"								"120"
+		"wide"								"f-6"
 		"tall"								"20"
 		"autoResize"						"0"
 		"pinCorner"							"0"
@@ -80,35 +62,31 @@
 		"AllCaps"							"1"
 		"dulltext"							"0"
 		"brighttext"						"1"
-		"font"								"Size 14"
+		"font"								"Size 32"
 		"fgcolor"							"White"
-		
-		"pin_to_sibling" 					"TitleFrame"
 	}
 
 	"TFTextMessage"
 	{
 		"ControlName"						"CExRichText"
 		"fieldName"							"TFTextMessage"
-		"font"								"Size 10"
-		"xpos"								"-4"
-		"ypos"								"0"
+		"font"								"Size 12"
+		"xpos"								"0"
+		"ypos"								"-100"
 		"zpos"								"3"
-		"wide"								"114"
-		"tall"								"400"
+		"wide"								"400"
+		"tall"								"308"
 		"autoResize"						"3"
 		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
 		"paintborder"						"0"
-		"textAlignment"						"center"
+		"textAlignment"						"west"
 		"fgcolor"							"WhiteTransparent"
-		"paintbackground"					"0"
-		"bgcolor_override"					"BlackLightTransparent"
 		
 		"pin_to_sibling" 					"TextWindowFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
 
 	"HTMLMessage"
@@ -135,21 +113,21 @@
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"6"
-		"wide"								"130"
-		"tall"								"24"
+		"wide"								"f-6"
+		"tall"								"40"
 		"autoResize"						"0"
 		"pinCorner"							"2"
 		"visible"							"1"
 		"enabled"							"1"
 		"tabPosition"						"0"
-		"labelText"							"Continue (&E) "
+		"labelText"							"Continue (&E)"
 		"textAlignment"						"center"
 		"AllCaps"							"1"
 		"dulltext"							"0"
 		"brighttext"						"0"
 		"command"							"okay"
 		"default"							"1"
-		"font"								"Size 15"
+		"font"								"Size 24"
 		
 		"paintbackground"					"0"
 		
@@ -157,8 +135,8 @@
 		"sound_released"					"UI/buttonclickrelease.wav"
 		
 		"pin_to_sibling" 					"TextWindowFrame"
-		"pin_corner_to_sibling" 			"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
 	
 	"okBG"
@@ -168,15 +146,21 @@
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"5"
-		"wide"								"130"
-		"tall"								"24"
+		"wide"								"f-6"
+		"tall"								"40"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"BlueTransparent70"
+		"border"							"BlackTransparent50"
 		
 		"pin_to_sibling" 					"ok"
 	}
 	
+	"TitleFrame"
+	{
+		"ControlName"     		  			"EditablePanel"
+		"fieldName"	        	  			"TitleFrame"
+		"xpos"								"9999"
+	}
 	"TextMessage"
 	{
 		"ControlName"						"TextEntry"

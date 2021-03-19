@@ -34,8 +34,8 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"TeamsAnchor"
-		"xpos"								"-5"
-		"ypos"								"-5"
+		"xpos"								"c-80"
+		"ypos"								"0"
 		"wide"								"5"
 		"tall"								"5"
 		"visible"							"1"
@@ -49,10 +49,10 @@
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"1"
-		"wide"								"130"
+		"wide"								"160"
 		"tall"								"p1.02"
-		"visible"							"1"
-		"enabled"							"1"
+		"visible"							"0"
+		"enabled"							"0"
 		"border"							"GrayBlueBorder"
 		
 		"pin_to_sibling" 					"TeamsAnchor"
@@ -65,11 +65,11 @@
 		"xpos"								"0"
 		"ypos"								"5"
 		"zpos"								"2"
-		"wide"								"130"
+		"wide"								"f-6"
 		"tall"								"30"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"BlueTransparent70"
+		"border"							"Blank"
 		
 		"pin_to_sibling" 					"TeamSelectFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
@@ -80,10 +80,10 @@
 	{
 		"ControlName"						"Label"
 		"fieldName"							"mapname"
-		"xpos"								"-5"
-		"ypos"								"-10"
+		"xpos"								"0"
+		"ypos"								"-8"
 		"zpos"								"5"
-		"wide"								"120"
+		"wide"								"f-6"
 		"tall"								"20"
 		"autoResize"						"0"
 		"pinCorner"							"0"
@@ -94,7 +94,7 @@
 		"AllCaps"							"1"
 		"dulltext"							"0"
 		"brighttext"						"1"
-		"font"								"Size 14"
+		"font"								"Size 24"
 		"fgcolor_override"					"White"
 		
 		"pin_to_sibling" 					"MapNameFrame"
@@ -104,36 +104,35 @@
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"Spec-AutoFrame"
-		"xpos"								"5"
-		"ypos"								"0"
+		"xpos"								"0"
+		"ypos"								"C-10"
 		"zpos"								"5"
-		"wide"								"135"
-		"tall"								"100"
+		"wide"								"160"
+		"tall"								"104"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"OrangeTransparent70"
-		"alpha"								"0"
+		"border"							"WhiteTransparent50"
 		
-		"pin_to_sibling" 					"TeamSelectFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
+		"pin_to_sibling" 					"MapNameFrame"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
 	
 	"BlueFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"BlueFrame"
-		"xpos"								"0"
-		"ypos"								"-4"
+		"xpos"								"-2"
+		"ypos"								"0"
 		"zpos"								"5"
-		"wide"								"135"
-		"tall"								"80"
+		"wide"								"348"
+		"tall"								"104"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"BlueTransparent70"
+		"border"							"BlueTransparent50"
 		
 		"pin_to_sibling" 					"Spec-AutoFrame"
-		"pin_corner_to_sibling" 			"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
 	}
 	
@@ -141,36 +140,36 @@
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"RedFrame"
-		"xpos"								"0"
-		"ypos"								"-4"
+		"xpos"								"-2"
+		"ypos"								"0"
 		"zpos"								"5"
-		"wide"								"135"
-		"tall"								"80"
+		"wide"								"348"
+		"tall"								"104"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"RedTransparent70"
+		"border"							"RedTransparent50"
 		
 		"pin_to_sibling" 					"Spec-AutoFrame"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 	}
 	
 	"SeparationLineCenter"
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"SeparationLineCenter"
-		"xpos"								"-20"
-		"ypos"								"0"
+		"xpos"								"0"
+		"ypos"								"-52"
 		"zpos"								"5"
 		"wide"								"100"
 		"tall"								"1"
 		"visible"							"1"
 		"enabled"							"1"
-		"bgcolor_override"					"WhiteTransparent"
+		"bgcolor_override"					"White"
 		
 		"pin_to_sibling" 					"Spec-AutoFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
 	
 	"SpectateLabel"
@@ -180,7 +179,7 @@
 		"xpos"								"0"
 		"ypos"								"-20"
 		"zpos"								"3"
-		"wide"								"135"
+		"wide"								"160"
 		"tall"								"25"
 		"visible"		  					"1"
 		"enabled"		  					"1"
@@ -188,9 +187,11 @@
 		"AllCaps"		  					"1"
 		"textAlignment"  					"center"
 		"font"			  					"Size 18"
-		"fgcolor"		  					"WhiteTransparent"
+		"fgcolor"		  					"White"
 		
 		"pin_to_sibling" 					"Spec-AutoFrame"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
 	
 	"RandomLabel"
@@ -200,7 +201,7 @@
 		"xpos"								"0"
 		"ypos"								"-20"
 		"zpos"								"3"
-		"wide"								"135"
+		"wide"								"160"
 		"tall"								"25"
 		"visible"		  					"1"
 		"enabled"		  					"1"
@@ -208,11 +209,11 @@
 		"AllCaps"		  					"1"
 		"textAlignment"  					"center"
 		"font"			  					"Size 18"
-		"fgcolor"		  					"WhiteTransparent"
+		"fgcolor"		  					"White"
 		
 		"pin_to_sibling" 					"Spec-AutoFrame"
-		"pin_corner_to_sibling" 			"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
 	
 	"BlueLabel"
@@ -220,7 +221,7 @@
 		"ControlName"	  					"CExLabel"
 		"fieldName"		  					"BlueLabel"
 		"xpos"			  					"0"
-		"ypos"			  					"0"
+		"ypos"			  					"-20"
 		"zpos"			  					"6"
 		"wide"			  					"135"
 		"tall"			  					"30"
@@ -229,14 +230,14 @@
 		"visible"		  					"1"
 		"enabled"		  					"1"
 		"AllCaps"		  					"1"
-		"labelText"		  					"Blue"
+		"labelText"		  					"Blu"
 		"textAlignment"	  					"center"
-		"font"			  					"Size 22"
+		"font"			  					"Size 32"
 		"fgcolor"		  					"White"
 		
 		"pin_to_sibling" 					"BlueFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
 	
 	"BlueCount"
@@ -244,7 +245,7 @@
 		"ControlName"	  					"CExLabel"
 		"fieldName"		  					"BlueCount"
 		"xpos"			  					"0"
-		"ypos"			  					"0"
+		"ypos"			  					"-16"
 		"zpos"			  					"6"
 		"wide"			  					"135"
 		"tall"			  					"50"
@@ -258,8 +259,8 @@
 		"fgcolor"		  					"White"
 		
 		"pin_to_sibling" 					"BlueFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
+		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
 	
 	"Red"
@@ -267,7 +268,7 @@
 		"ControlName"	  					"CExLabel"
 		"fieldName"		  					"Red"
 		"xpos"			  					"0"
-		"ypos"			  					"0"
+		"ypos"			  					"-20"
 		"zpos"			  					"6"
 		"wide"			  					"135"
 		"tall"			  					"30"
@@ -278,7 +279,7 @@
 		"AllCaps"		  					"1"
 		"labelText"		  					"Red"
 		"textAlignment"	  					"center"
-		"font"			  					"Size 22"
+		"font"			  					"Size 32"
 		"fgcolor"		  					"White"
 		
 		"pin_to_sibling" 					"RedFrame"
@@ -291,7 +292,7 @@
 		"ControlName"	  					"CExLabel"
 		"fieldName"		  					"RedCount"
 		"xpos"			  					"0"
-		"ypos"			  					"0"
+		"ypos"			  					"-16"
 		"zpos"			  					"6"
 		"wide"			  					"135"
 		"tall"			  					"50"
@@ -314,14 +315,14 @@
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"7"
-		"wide"								"135"
-		"tall"								"80"
+		"wide"								"344"
+		"tall"								"100"
 		"pinCorner"		  					"0"
 		"visible"		  					"1"
 		"enabled"		  					"1"
 		"tabPosition"	  					"3"
 		"labelText"		  					"&3"
-		"textAlignment"	  					"west"
+		"textAlignment"	  					"center"
 		"dulltext"		  					"0"
 		"brighttext"	  					"0"
 		"paintborder"	  					"0"
@@ -333,6 +334,8 @@
 		"fgcolor"		  					"Blank"
 		
 		"pin_to_sibling" 					"BlueFrame"
+		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
 	
 	"teambutton1"							//TEAMRED
@@ -342,15 +345,15 @@
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"7"
-		"wide"								"135"
-		"tall"								"80"
+		"wide"								"344"
+		"tall"								"100"
 		"autoResize"	  					"0"
 		"pinCorner"		  					"0"
 		"visible"		  					"1"
 		"enabled"		  					"1"
 		"tabPosition"	  					"4"
 		"labelText"		  					"&4"
-		"textAlignment"	  					"west"
+		"textAlignment"	  					"center"
 		"dulltext"		  					"0"
 		"brighttext"	  					"0"
 		"paintborder"	  					"0"
@@ -362,6 +365,8 @@
 		"fgcolor"		  					"Blank"
 		
 		"pin_to_sibling" 					"RedFrame"
+		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
 	
 	"teambutton2"							//TEAMRANDOM
@@ -371,7 +376,7 @@
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"7"
-		"wide"								"135"
+		"wide"								"156"
 		"tall"								"25"
 		"autoResize"	  					"0"
 		"pinCorner"		  					"0"
@@ -389,6 +394,8 @@
 		"fgcolor"		  					"Blank"
 		
 		"pin_to_sibling" 					"RandomLabel"
+		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
 	
 	"teambutton3"							//TEAMSPEC
@@ -398,7 +405,7 @@
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"7"
-		"wide"								"135"
+		"wide"								"156"
 		"tall"								"25"
 		"autoResize"	  					"0"
 		"pinCorner"		  					"0"
@@ -416,6 +423,8 @@
 		"fgcolor"		  					"Blank"
 		
 		"pin_to_sibling" 					"SpectateLabel"
+		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
 	
 	"MenuBG"
