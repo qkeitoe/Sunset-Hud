@@ -714,8 +714,8 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Quit"
-		"xpos"							"-1"
-		"ypos"							"-5"
+		"xpos"							"0"
+		"ypos"							"-7"
 		"zpos"							"50"
 		"wide"							"30"
 		"tall"							"30"
@@ -762,8 +762,8 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Disconnect"
-		"xpos"							"-1"
-		"ypos"							"-5"
+		"xpos"							"0"
+		"ypos"							"-7"
 		"zpos"							"50"
 		"wide"							"30"
 		"tall"							"30"

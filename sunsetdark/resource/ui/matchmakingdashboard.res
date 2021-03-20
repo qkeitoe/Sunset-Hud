@@ -548,7 +548,7 @@
 			"ControlName"					"EditablePanel"
 			"fieldName"						"DashboardAnchor"
 			"xpos"							"r-14"
-			"ypos"							"4"
+			"ypos"							"6"
 			"zpos"							"-600"
 			"wide"							"10"
 			"tall"							"20"

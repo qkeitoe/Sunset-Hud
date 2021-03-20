@@ -3,7 +3,7 @@
 	"TeamStatus"
 	{
 		"tall"									"28"
-		"max_size"								"23"
+		"max_size"								"30"
 		"6v6_gap"								"2"
 		"12v12_gap"								"1"
 
