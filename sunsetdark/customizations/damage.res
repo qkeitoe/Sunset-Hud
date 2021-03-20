@@ -9,5 +9,5 @@
 //=========================================================================================
 
 
-//#base "../resource/ui/alternatives/damage_last_off.res"		// DAMAGE ABOVE THE HEALTH DISABLED
-#base "../resource/ui/alternatives/damage_last_on.res"	// DAMAGE ABOVE THE HEALTH ENABLED
+#base "../resource/ui/alternatives/damage_last_off.res"		// DAMAGE ABOVE THE HEALTH DISABLED
+//#base "../resource/ui/alternatives/damage_last_on.res"	// DAMAGE ABOVE THE HEALTH ENABLED
