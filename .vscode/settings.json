@@ -1,0 +1,11 @@
+{
+    "[plaintext]": {
+        "files.insertFinalNewline": false,
+        "files.trimTrailingWhitespace": false,
+        "files.trimFinalNewlines": false,
+        "editor.insertSpaces": false,
+    },
+    "files.associations": {
+        "*.txt": "vdf"
+    },
+}
