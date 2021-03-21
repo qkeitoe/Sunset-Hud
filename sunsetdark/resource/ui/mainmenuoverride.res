@@ -229,32 +229,6 @@
 		}
 	}
 	
-	"RightBar"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldname"			"RightBar"
-		"xpos"				"r45"
-		"ypos"				"-5"
-		"zpos"				"15"
-		"wide"				"50"
-		"tall"				"p1.02"
-		"visible"			"1"
-		"border"			"BlackTransparent50"
-	}
-	
-	"PlaySeparatorLine"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldname"			"PlaySeparatorLine"
-		"xpos"				"r40"
-		"ypos"				"35"
-		"zpos"				"20"
-		"wide"				"37"
-		"tall"				"1"
-		"visible"			"1"
-		"bgcolor_override" 	"WhiteMoreTransparent"
-	}
-	
 	"MainButtonsAnchor"
 	{
 		"ControlName"		"EditablePanel"
@@ -277,9 +251,9 @@
 		"tall"							"30"
 		"visible"						"1"
 		
-		"pin_to_sibling" 				"MainButtonsAnchor"
+		"pin_to_sibling" 				"RankPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
@@ -381,7 +355,7 @@
 		
 		"pin_to_sibling" 				"Servers"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -429,7 +403,7 @@
 		
 		"pin_to_sibling" 				"Items"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -477,7 +451,7 @@
 		
 		"pin_to_sibling" 				"Store"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -525,7 +499,7 @@
 		
 		"pin_to_sibling" 				"Options"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -573,7 +547,7 @@
 		
 		"pin_to_sibling" 				"Vote"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -612,44 +586,22 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"FriendsContainer"
-		"xpos"							"-1"
-		"ypos"							"-45"
-		"zpos"							"50"
-		"wide"							"37"
-		"tall"							"200"
+		"xpos"							"174"
+		"ypos"							"1"
+		"zpos"							"20001"
+		"wide"							"144"
+		"tall"							"22"
 		"visible"						"1"
-		
-		"pin_to_sibling" 				"RightBar"
-		"pin_corner_to_sibling" 		"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 		"PIN_CENTER_BOTTOM"
-
-		"TitleLabel"
-		{
-			"ControlName"				"CExLabel"
-			"fieldName"					"TitleLabel"
-			"font"						"Symbols 30"
-			"labelText"					"R"
-			"textAlignment"				"center"
-			"xpos"						"0"
-			"ypos"						"0"
-			"wide"						"37"
-			"tall"						"30"
-			"autoResize"				"0"
-			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
-			"fgcolor_override"			"WhiteMoreTransparent"
-		}
 
 		"SeparationLine"
 		{
 			"ControlName"				"EditablePanel"
 			"fieldname"					"SeparationLine"
 			"xpos"						"0"
-			"ypos"						"32"
+			"ypos"						"0"
 			"zpos"						"501"
-			"wide"						"37"
-			"tall"						"1"
+			"wide"						"1"
+			"tall"						"22"
 			"visible"					"1"
 			"proportionaltoparent"		"1"
 			"mouseinputenabled"			"0"
@@ -663,25 +615,25 @@
 		{
 			"ControlName"				"CSteamFriendsListPanel"
 			"fieldname"					"SteamFriendsList"
-			"xpos"						"0"
-			"ypos"						"36"
+			"xpos"						"4"
+			"ypos"						"1"
 			"zpos"						"500"
-			"wide"						"37"
-			"tall"						"164"
+			"wide"						"137"
+			"tall"						"22"
 			"visible"					"1"
 			"proportionaltoparent"		"1"
 
-			"columns_count"				"1"
-			"inset_x"					"2"
+			"columns_count"				"6"
+			"inset_x"					"0"
 			"inset_y"					"0"
 			"row_gap"					"0"
-			"column_gap"				"0"
+			"column_gap"				"1"
 			"restrict_width"			"0"
 
 			"friendpanel_kv"
 			{
-				"wide"					"35"
-				"tall"					"41"
+				"wide"					"22"
+				"tall"					"28"
 			}
 
 			"ScrollBar"
@@ -693,37 +645,16 @@
 		}
 	}
 	
-	"QuitSeparatorLine"
-	{
-		"ControlName"					"EditablePanel"
-		"fieldname"						"QuitSeparatorLine"
-		"xpos"							"-1"
-		"ypos"							"-41"
-		"zpos"							"100"
-		"wide"							"37"
-		"tall"							"1"
-		"visible"						"1"
-		"bgcolor_override" 				"WhiteMoreTransparent"
-		
-		"pin_to_sibling" 				"RightBar"
-		"pin_corner_to_sibling" 		"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 		"PIN_CENTER_BOTTOM"
-	}
-	
 	"Quit"
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Quit"
-		"xpos"							"-1"
-		"ypos"							"-5"
+		"xpos"							"rs1.0"
+		"ypos"							"rs1.0"
 		"zpos"							"50"
 		"wide"							"30"
 		"tall"							"30"
 		"visible"						"1"
-		
-		"pin_to_sibling" 				"RightBar"
-		"pin_corner_to_sibling" 		"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 		"PIN_CENTER_BOTTOM"
 
 		"SubButton"
 		{
@@ -762,16 +693,12 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Disconnect"
-		"xpos"							"-1"
-		"ypos"							"-5"
+		"xpos"							"rs1.0"
+		"ypos"							"rs1.0"
 		"zpos"							"50"
 		"wide"							"30"
 		"tall"							"30"
 		"visible"						"1"
-		
-		"pin_to_sibling" 				"RightBar"
-		"pin_corner_to_sibling" 		"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 		"PIN_CENTER_BOTTOM"
 
 		"SubButton"
 		{
