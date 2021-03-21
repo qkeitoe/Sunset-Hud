@@ -112,6 +112,17 @@ Scheme
 				"blur"			"2"
 			}
 		}
+		"Size:19 | Blur:1"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"19"
+				"weight"		"0"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
 		"Size:20 | Blur:ON"
 		{
 			"1"
