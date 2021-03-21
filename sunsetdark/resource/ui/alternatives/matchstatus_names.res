@@ -3,7 +3,7 @@
 	"TeamStatus"
 	{
 		"tall"									"28"
-		"max_size"								"23"
+		"max_size"								"30"
 		"6v6_gap"								"2"
 		"12v12_gap"								"1"
 
@@ -35,7 +35,7 @@
 			{	
 				"ypos"							"0"
 				"zpos"							"3"
-				"wide"							"10000"
+				"wide"							"f0"
 				"tall"							"20"
 			}
 			
