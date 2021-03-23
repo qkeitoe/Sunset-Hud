@@ -34,56 +34,22 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"TeamsAnchor"
-		"xpos"								"-5"
-		"ypos"								"-5"
+		"xpos"								"cs-0.5"
+		"ypos"								"cs-0.5"
 		"wide"								"5"
 		"tall"								"5"
 		"visible"							"1"
 		"enabled"							"1"
 	}
 	
-	"TeamSelectFrame"
-	{
-		"ControlName"     		  			"EditablePanel"
-		"fieldName"	        	  			"TeamSelectFrame"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"1"
-		"wide"								"130"
-		"tall"								"p1.02"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"GrayBlueBorder"
-		
-		"pin_to_sibling" 					"TeamsAnchor"
-	}
-	
-	"MapNameFrame"
-	{
-		"ControlName"     		  			"EditablePanel"
-		"fieldName"	        	  			"MapNameFrame"
-		"xpos"								"0"
-		"ypos"								"5"
-		"zpos"								"2"
-		"wide"								"130"
-		"tall"								"30"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"BlueTransparent70"
-		
-		"pin_to_sibling" 					"TeamSelectFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
-	}
-	
 	"mapname"
 	{
 		"ControlName"						"Label"
 		"fieldName"							"mapname"
-		"xpos"								"-5"
-		"ypos"								"-10"
+		"xpos"								"0"
+		"ypos"								"100"
 		"zpos"								"5"
-		"wide"								"120"
+		"wide"								"f0"
 		"tall"								"20"
 		"autoResize"						"0"
 		"pinCorner"							"0"
@@ -94,17 +60,19 @@
 		"AllCaps"							"1"
 		"dulltext"							"0"
 		"brighttext"						"1"
-		"font"								"Size 14"
+		"font"								"Size 20"
 		"fgcolor_override"					"White"
 		
-		"pin_to_sibling" 					"MapNameFrame"
+		"pin_to_sibling" 					"TeamsAnchor"
+		"pin_corner_to_sibling"				"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 	}
 	
 	"Spec-AutoFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"Spec-AutoFrame"
-		"xpos"								"5"
+		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"5"
 		"wide"								"135"
@@ -114,9 +82,9 @@
 		"border"							"OrangeTransparent70"
 		"alpha"								"0"
 		
-		"pin_to_sibling" 					"TeamSelectFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
+		"pin_to_sibling" 					"TeamsAnchor"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
 	
 	"BlueFrame"
@@ -124,7 +92,7 @@
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"BlueFrame"
 		"xpos"								"0"
-		"ypos"								"-4"
+		"ypos"								"0"
 		"zpos"								"5"
 		"wide"								"135"
 		"tall"								"80"
@@ -133,8 +101,8 @@
 		"border"							"BlueTransparent70"
 		
 		"pin_to_sibling" 					"Spec-AutoFrame"
-		"pin_corner_to_sibling" 			"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 			"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
 	}
 	
 	"RedFrame"
@@ -142,7 +110,7 @@
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"RedFrame"
 		"xpos"								"0"
-		"ypos"								"-4"
+		"ypos"								"0"
 		"zpos"								"5"
 		"wide"								"135"
 		"tall"								"80"
@@ -151,18 +119,18 @@
 		"border"							"RedTransparent70"
 		
 		"pin_to_sibling" 					"Spec-AutoFrame"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
 	}
 	
 	"SeparationLineCenter"
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"SeparationLineCenter"
-		"xpos"								"-20"
+		"xpos"								"-10"
 		"ypos"								"0"
 		"zpos"								"5"
-		"wide"								"100"
+		"wide"								"115"
 		"tall"								"1"
 		"visible"							"1"
 		"enabled"							"1"
@@ -282,8 +250,8 @@
 		"fgcolor"		  					"White"
 		
 		"pin_to_sibling" 					"RedFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
+		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}	
 	
 	"RedCount"
@@ -303,8 +271,8 @@
 		"fgcolor"		  					"White"
 		
 		"pin_to_sibling" 					"RedFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
 	
 	"teambutton0"							//TEAMBLUE
