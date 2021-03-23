@@ -15,60 +15,14 @@
 		"enabled"							"1"
 	}
 	
-	"MapInfoMenuAnchor"						//Moves the map info menu as a whole
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"MapInfoMenuAnchor"
-		"xpos"								"-5"
-		"ypos"								"-5"
-		"wide"								"5"
-		"tall"								"5"
-		"visible"							"1"
-		"enabled"							"1"
-	}
-	
-	"MapInfoFrame"
-	{
-		"ControlName"     		  			"EditablePanel"
-		"fieldName"	        	  			"MapInfoFrame"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"1"
-		"wide"								"130"
-		"tall"								"p1.02"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"GrayBlueBorder"
-		
-		"pin_to_sibling" 					"MapInfoMenuAnchor"
-	}
-	
-	"TitleFrame"
-	{
-		"ControlName"     		  			"EditablePanel"
-		"fieldName"	        	  			"TitleFrame"
-		"xpos"								"0"
-		"ypos"								"5"
-		"zpos"								"2"
-		"wide"								"130"
-		"tall"								"30"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"BlueTransparent70"
-		
-		"pin_to_sibling" 					"MapInfoFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
-	}
-	
 	"MapInfoTitle"
 	{
 		"ControlName"						"CExLabel"
 		"fieldName"							"MapInfoTitle"
-		"xpos"								"-5"
-		"ypos"								"-10"
+		"xpos"								"cs-0.5"
+		"ypos"								"c-175"
 		"zpos"								"5"
-		"wide"								"120"
+		"wide"								"f0"
 		"tall"								"20"
 		"autoResize"						"0"
 		"pinCorner"							"0"
@@ -79,10 +33,8 @@
 		"AllCaps"							"1"
 		"dulltext"							"0"
 		"brighttext"						"1"
-		"font"								"Size 14"
-		"fgcolor"							"WhiteTransparent"
-		
-		"pin_to_sibling" 					"TitleFrame"
+		"font"								"Size 22"
+		"fgcolor"							"White"
 	}
 	
 	"MapInfoText"
@@ -90,11 +42,11 @@
 		"ControlName"						"CExRichText"
 		"fieldName"							"MapInfoText"
 		"font"								"Size 10"
-		"xpos"								"-4"
-		"ypos"								"0"
+		"xpos"								"0"
+		"ypos"								"5"
 		"zpos"								"3"
-		"wide"								"114"
-		"tall"								"390"
+		"wide"								"420"
+		"tall"								"300"
 		"autoResize"						"3"
 		"pinCorner"							"0"
 		"visible"							"1"
@@ -104,50 +56,46 @@
 		"fgcolor"							"White"
 		"paintbackground"					"0"
 		"bgcolor_override"					"BlackLightTransparent"
-		
-		"pin_to_sibling" 					"MapInfoFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
+
+		"pin_to_sibling" 					"MapInfoTitle"
+		"pin_corner_to_sibling"				"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"				"PIN_CENTER_BOTTOM"
 	}
 
 	"ok"
 	{
 		"ControlName"						"CExButton"
 		"fieldName"							"ok"
-		"xpos"								"0"
-		"ypos"								"0"
+		"xpos"								"cs-0.5"
+		"ypos"								"rs1.0"
 		"zpos"								"6"
-		"wide"								"130"
-		"tall"								"24"
+		"wide"								"f0"
+		"tall"								"30"
 		"autoResize"						"0"
 		"pinCorner"							"2"
 		"visible"							"1"
 		"enabled"							"1"
 		"tabPosition"						"0"
-		"labelText"							"Continue (&E) "
+		"labelText"							"Continue (&E)"
 		"textAlignment"						"center"
 		"AllCaps"							"1"
 		"dulltext"							"0"
 		"brighttext"						"0"
 		"command"							"continue"
 		"default"							"1"
-		"font"								"Size 15"
+		"font"								"Size 20"
 		
 		"paintbackground"					"0"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		
-		"border_default"					"BlueTransparent70"
-		"border_armed"						"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_armed"						"OrangeTransparent50"
 
 		"defaultFgColor_override"			"White"
 		"armedFgColor_override"				"White"
 		"depressedFgColor_override" 		"White"
-		
-		"pin_to_sibling" 					"MapInfoFrame"
-		"pin_corner_to_sibling" 			"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMRIGHT"
 	}
 	
 	"MapInfoWatchIntro"
@@ -176,8 +124,8 @@
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		
-		"border_default"					"BlueTransparent70"
-		"border_armed"						"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_armed"						"OrangeTransparent50"
 
 		"defaultFgColor_override"			"White"
 		"armedFgColor_override"				"White"
