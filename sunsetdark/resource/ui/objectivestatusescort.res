@@ -182,7 +182,7 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"fgcolor"								"white"
+			"fgcolor"								"BlackSolid"
 			"paintbackground"						"0"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
@@ -206,7 +206,7 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"fgcolor"								"white"
+			"fgcolor"								"BlackSolid"
 			"paintbackground"						"0"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
@@ -228,7 +228,7 @@
 			"enabled"								"1"
 			"tabPosition"							"0"
 			"labelText"								""
-			"image"									"replay\thumbnails\cart_icons\cart_arrow_left"
+			"image"									"replay\thumbnails\cart_icons\cart_arrow_left_dark"
 			"scaleImage"							"1"	
 		}
 

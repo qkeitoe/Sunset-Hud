@@ -141,7 +141,7 @@
 				"ControlName"				"CExLabel"
 				"fieldName"					"RespawnTime"
 				"font"						"Size 12 Shadow"
-				"xpos"						"1"
+				"xpos"						"2"
 				"ypos"						"0"
 				"zpos"						"5"
 				"wide"						"25"
@@ -170,7 +170,7 @@
 				"visible"					"1"
 				"labelText"					"%chargeamount%"
 				"textAlignment"				"east"
-				"fgcolor"					"GrayTransparent"
+				"fgcolor"					"BlackTransparent"
 				"proportionaltoparent"		"1"
 				"pin_to_sibling"			"ClassImage"
 			}
