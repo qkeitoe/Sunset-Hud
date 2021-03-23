@@ -38,7 +38,7 @@
 		"tall"								"p1.02"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"BlackTransparent70"
+		"border"							"BlackTransparent78"
 	}
 	
 	"scout"									//Moves all the class icons
