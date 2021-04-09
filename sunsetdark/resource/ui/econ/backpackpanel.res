@@ -1470,20 +1470,7 @@
 	{
 		"ControlName"	"CheckButton"
 		"fieldName"		"ShowBaseItemsCheckbox"
-		"labelText"		"#ShowBaseItemsCheckBox"
-		"Font"			"Size 11"
-		"textAlignment"	"east"
-		"xpos"			"3"
-		"ypos"			"5"
-		"zpos"			"1"
-		"wide"			"200"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"xpos"			"9999"
 	}
 	"NameFilterLabel"
 	{
