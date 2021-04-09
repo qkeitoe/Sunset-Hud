@@ -38,7 +38,7 @@
 		"page_button_y"							"300"
 		"page_button_x_delta" 					"2"
 		"page_button_y_delta" 					"2"
-		"page_button_per_row" 					"20"
+		"page_button_per_row" 					"24"
 		"page_button_height" 					"13"
 
 		"pagebuttons_kv"
@@ -56,7 +56,7 @@
 			{
 				"fieldName"						"Button"
 				"ControlName"					"CExButton"
-				"wide"							"25"
+				"wide"							"22"
 				"tall"							"13"
 				"visible"						"1"
 				"bgcolor_override"				"Blank"
@@ -315,7 +315,7 @@
 		"labelText"								""
 		"Font"									""
 		"textAlignment"							"center"
-		"xpos"									"3"
+		"xpos"									"6"
 		"ypos"									"3"
 		"zpos"									"1"
 		"wide"									"20"
@@ -335,7 +335,7 @@
 	{
 		"ControlName"							"EditablePanel"
 		"fieldName"								"ShowBaseItemsBG"
-		"xpos"									"1"
+		"xpos"									"-1"
 		"ypos"									"0"
 		"zpos"									"0"
 		"wide"									"21"
