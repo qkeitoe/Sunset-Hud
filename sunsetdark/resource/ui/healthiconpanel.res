@@ -7,7 +7,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"34"
-		"tall"				"26"
+		"tall"				"34"
 		"visible"			"1"
 		"enabled"			"1"	
 		"TFFont"			"HudFontSmall"
