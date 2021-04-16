@@ -34,56 +34,22 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"TeamsAnchor"
-		"xpos"								"-5"
-		"ypos"								"-5"
+		"xpos"								"cs-0.5"
+		"ypos"								"cs-0.5"
 		"wide"								"5"
 		"tall"								"5"
 		"visible"							"1"
 		"enabled"							"1"
 	}
 
-	"TeamSelectFrame"
-	{
-		"ControlName"     		  			"EditablePanel"
-		"fieldName"	        	  			"TeamSelectFrame"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"1"
-		"wide"								"130"
-		"tall"								"p1.02"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"GrayBlueBorder"
-		
-		"pin_to_sibling" 					"TeamsAnchor"
-	}
-	
-	"MapNameFrame"
-	{
-		"ControlName"     		  			"EditablePanel"
-		"fieldName"	        	  			"MapNameFrame"
-		"xpos"								"0"
-		"ypos"								"5"
-		"zpos"								"2"
-		"wide"								"130"
-		"tall"								"30"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"BlueTransparent70"
-		
-		"pin_to_sibling" 					"TeamSelectFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
-	}
-	
 	"mapname"
 	{
 		"ControlName"						"Label"
 		"fieldName"							"mapname"
-		"xpos"								"-5"
-		"ypos"								"-10"
+		"xpos"								"0"
+		"ypos"								"100"
 		"zpos"								"5"
-		"wide"								"120"
+		"wide"								"f0"
 		"tall"								"20"
 		"autoResize"						"0"
 		"pinCorner"							"0"
@@ -94,18 +60,20 @@
 		"AllCaps"							"1"
 		"dulltext"							"0"
 		"brighttext"						"1"
-		"font"								"Size 14"
+		"font"								"Size 20"
 		"fgcolor_override"					"White"
 		
-		"pin_to_sibling" 					"MapNameFrame"
+		"pin_to_sibling" 					"TeamsAnchor"
+		"pin_corner_to_sibling"				"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 	}
 	
 	"FightFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"FightFrame"
-		"xpos"								"5"
-		"ypos"								"-60"
+		"xpos"								"0"
+		"ypos"								"0"
 		"zpos"								"5"
 		"wide"								"135"
 		"tall"								"80"
@@ -113,8 +81,8 @@
 		"enabled"							"1"
 		"border"							"RedTransparent70"
 		
-		"pin_to_sibling" 					"TeamSelectFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
+		"pin_to_sibling" 					"SeparationLineCenter"
+		"pin_corner_to_sibling" 			"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
 	}
 	
@@ -171,8 +139,8 @@
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"SpectateFrame"
-		"xpos"								"5"
-		"ypos"								"60"
+		"xpos"								"0"
+		"ypos"								"0"
 		"zpos"								"5"
 		"wide"								"135"
 		"tall"								"80"
@@ -180,9 +148,9 @@
 		"enabled"							"1"
 		"border"							"BlackTransparent70"
 		
-		"pin_to_sibling" 					"TeamSelectFrame"
+		"pin_to_sibling" 					"SeparationLineCenter"
 		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
 	}
 	
 	"SpectateLabel"
@@ -238,57 +206,25 @@
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"SeparationLineCenter"
-		"xpos"								"-15"
-		"ypos"								"0"
+		"xpos"								"0"
+		"ypos"								"14"
 		"zpos"								"5"
-		"wide"								"100"
-		"tall"								"1"
+		"wide"								"1"
+		"tall"								"72"
 		"visible"							"1"
 		"enabled"							"1"
 		"bgcolor_override"					"White"
-		
-		"pin_to_sibling" 					"TeamSelectFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
+
+		"pin_to_sibling" 					"TeamsAnchor"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
 	
 	"CancelButton"
 	{
 		"ControlName"						"CExButton"
 		"fieldName"							"CancelButton"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"6"
-		"wide"								"130"
-		"tall"								"24"
-		"autoResize"						"0"
-		"pinCorner"							"2"
-		"visible"							"0"
-		"enabled"							"1"
-		"tabPosition"						"0"
-		"labelText"							"#TF_Cancel"
-		"textAlignment"						"center"
-		"dulltext"							"0"
-		"brighttext"						"0"
-		"AllCaps"							"1"
-		"command"							"cancelmenu"
-		"font"								"Size 15"
-		
-		"paintbackground"					"0"
-		
-		"sound_depressed"					"UI/buttonclick.wav"
-		"sound_released"					"UI/buttonclickrelease.wav"
-		
-		"border_default"					"BlueTransparent70"
-		"border_armed"						"OrangeTransparent70"
-
-		"defaultFgColor_override"			"White"
-		"armedFgColor_override"				"White"
-		"depressedFgColor_override" 		"White"
-		
-		"pin_to_sibling" 					"TeamSelectFrame"
-		"pin_corner_to_sibling" 			"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMRIGHT"
+		"xpos"								"9999"
 	}
 	
 	
