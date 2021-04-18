@@ -178,7 +178,7 @@
 			"fieldName"				"HandIcon"
 			"font"					"Symbols 20"
 			"xpos"					"0"
-			"ypos"					"5"
+			"ypos"					"5+2"
 			"zpos"					"1"
 			"wide"					"30"
 			"tall"					"13"
